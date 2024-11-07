@@ -107,7 +107,7 @@ static void MySetCapability(NCSI_INTERFACE_ATTRIBUTES *attributes, int family, i
         StringCbPrintfA(buf, 512, "NCSI_INTERFACE_ATTRIBUTES::SetCapability(%p = " FORMAT_GUID ", %d, %d, %d)", attributes, GUID_ARG(ifguid), family, cap, reason);
     }
     OutputDebugStringA(buf);
-    addrSetCapability(attributes, family, cap, reason);
+    originalSetCapability(attributes, family, cap, reason);
 }
 
 static bool SetupHook() {
