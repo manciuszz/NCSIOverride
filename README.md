@@ -4,11 +4,9 @@
 
 ----------------
 
-Does Windows block some functionality and keep saying you have no Internet, while you are searching for this?
+Does Windows keep saying NO INTERNET CONNECTION despite you are searching for this right now, on this very PC?
 
-JUST SAY FUCK OFF TO THAT BULLSHIT INDICATOR. THIS SHOULD NOT BE THE VEDAS TO KEEP USER FROM USING ANY FEATURE.
-
-THE INDICATOR DOESN’T TEST YOUR SERVICE AT ALL. INDICATOR SAYS OK DOESN’T MEAN USER CAN CONNECT TO YOUR SERVICE.
+*This is ~~not~~ for you.*
 
 ## Notes
 
@@ -19,7 +17,7 @@ THE INDICATOR DOESN’T TEST YOUR SERVICE AT ALL. INDICATOR SAYS OK DOESN’T ME
 
 1. Download from [Releases](https://github.com/shezik/NCSIOverride/releases)
 2. Copy `NCSIOverride.dll` into `%SystemRoot%\System32`
-3. Edit `Install.reg` to your liking and import it
+3. Configure `Install.reg` and import it
 
 ## Configuration
 
@@ -46,7 +44,7 @@ Values for `DefaultOverrideV4`, `DefaultOverrideV6`, `OverrideV4`, `OverrideV6`:
 |   0   | None     |
 |   1   | Local    |
 |   2   | Internet |
-|   3   | Max      |
+|   3   | Max [*(Wtf?)*](https://github.com/dantmnf/NCSIOverride/issues/5#issuecomment-1368259131) |
 
 
 `{INTERFACE-GUID}` can be obtained through:
