@@ -16,8 +16,8 @@ Does Windows keep saying NO INTERNET CONNECTION despite you are searching for th
 ## Installation
 
 1. Download from [Releases](https://github.com/shezik/NCSIOverride/releases)
-2. Copy `NCSIOverride.dll` into `%SystemRoot%\System32`
-3. Configure `Install.reg` and import it
+2. Run `Install.cmd` to install NCSIOverride
+3. Run `Uninstall.cmd` to uninstall NCSIOverride
 
 ## Configuration
 
